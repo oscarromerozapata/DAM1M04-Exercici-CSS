@@ -1,0 +1,42 @@
+h1 {
+    font-family: "Playwrite AR", cursive;
+    color: red;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+nav :hover {
+    color: black;
+    text-decoration: none;
+}
+.playwrite-ar-<uniquifier> {
+  font-family: "Playwrite AR", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.text_diferent {
+    font-family: "Playwrite AR", cursive;
+    color: blue; 
+
+}
+#text {
+    font-family: "Playwrite AR", cursive;
+    color: green; 
+}
+ul li:first-child {
+    color: blue;
+}
+ul li:last-child {
+    color: red;
+}
+#base >li {
+    background-color: yellow;
+}
+.hecho:before{
+    content: "✔";
+    color: red;
+}
+.no:after{
+    content: "✘";
+    color: red;
+}
